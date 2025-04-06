@@ -1,5 +1,7 @@
 package lesson_2;
 
+import java.util.Arrays;
+
 public class Watch {
     private String name;
     private int date;
@@ -17,9 +19,10 @@ public class Watch {
         this.price = price;
         this.booking = booking;
     }
-    public void info2 () {
-        System.out.println("Информация о товаре: Название: " + name + "Год: " + date +
-                " Производитель: " + manufacturer + "Страна:" + country +
-                "Цена: " + price + " руб, Статус бронирования:" + booking);
-    }
+public void infoproduct(){
+      System.out.println("Информация о товаре: \nНазвание: " + name + "\nГод: " + date +
+              "\nПроизводитель: " + manufacturer + "\nСтрана:" + country +
+              "\nЦена: " + price + " руб, \nСтатус бронирования:" + booking);
+}
+
 }
